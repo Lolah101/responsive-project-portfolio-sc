@@ -98,6 +98,38 @@ p {
 .project-descriptions {
   padding: 40px 30px;
 }
+
+.logo {
+  max-height: 50px;
+}
+
+nav {
+  padding: 20px 0px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-family: var(--heading-font-family);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--font-color);
+}
 .one {
   border: 3px solid var(--branding-color);
   padding: 30px;
@@ -122,5 +154,9 @@ p {
   .project-descriptions {
     padding: 0;
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
