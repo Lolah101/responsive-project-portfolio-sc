@@ -2,9 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Loza is a front-end engineer based in Portugal."
+    />
+    <title>Front-end developer - Loza Daniel</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,22 +35,30 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="index.html">
-          <img src="img/Logo-lg.png" class="logo d-none d-md-block" alt="" />
-          <img src="img/Logo.png" class="logo d-block d-md-none" alt="" />
+        <a href="index.html" title="Homepage">
+          <img
+            src="img/Logo-lg.png"
+            class="logo d-none d-md-block"
+            alt="Loza Logo"
+          />
+          <img
+            src="img/Logo.png"
+            class="logo d-block d-md-none"
+            alt="Loza Logo"
+          />
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Loza">About</a>
           </li>
           <li>
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="Loza's work"> Work</a>
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact Loza"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -56,14 +68,16 @@
       <h1>Loza Daniel</h1>
       <h2 class="mb-3">Front-end developer based in London</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <div class="container">
       <p class="text-center m-5">Featured Projects to show</p>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="img/Land.png" alt="" class="img-fluid" />
+          <img src="img/Land.png" alt="landpage preview" class="img-fluid" />
         </div>
         <div class="col">
           <div class="project-descriptions">
@@ -80,7 +94,7 @@
               you prefer traditional or contemporary styles, our goal is to
               celebrate individual expression and artistic growth.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -94,16 +108,20 @@
               real-time weather information, responsive design, interactive
               features, and a seamless user experience.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="img/Weather.png" alt="" class="img-fluid" />
+          <img
+            src="img/Weather.png"
+            alt="weather project preview"
+            class="img-fluid"
+          />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="img/clock.png" alt="" class="img-fluid" />
+          <img src="img/clock.png" alt="clock app preview" class="img-fluid" />
         </div>
         <div class="col">
           <div class="project-descriptions">
@@ -112,7 +130,7 @@
               My Work Clock project utilized APIs, HTML, CSS, and JavaScript to
               create an efficient and visually appealing time management tool.
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -121,29 +139,54 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p>Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mb-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mb-3"
+              title="contact Loza"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:lozaydaniel@gmail.com" class="email-link"
+          <a
+            href="mailto:lozaydaniel@gmail.com"
+            class="email-link"
+            title="Email Loza"
             >lozaydaniel@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.instagram.com/" target="_blank">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            title="Instagram profile"
+          >
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="https://www.github.com/" target="_blank">
+          <a
+            href="https://www.github.com/"
+            target="_blank"
+            title="Github profile"
+          >
             <i class="fab fa-github"></i>
           </a>
           <a href="https://www.facebook.com/" target="_blank">
             <i class="fab fa-facebook"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          👋 This project was coded Loza Daniel, and it is
+          <a
+            href="https://github.com/Lolah101/responsive-project-portfolio-sc"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+        </p>
       </footer>
     </div>
   </body>
